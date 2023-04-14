@@ -1,0 +1,465 @@
+
+@import url(./zoom.css);
+#Product-Content{
+    width:85%;
+    margin:0px auto;
+  
+}
+
+
+.items_img{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#marketPlace{
+    color:var(--seaGreeen);
+    font-size:30px;
+}
+
+.box{
+   
+    width:100px;
+    height:100px;
+    border-radius: 5px;
+   
+}
+/* .box :hover{
+    border:2px solid var(--seaGreeen);
+    border-radius:10px;
+} */
+.box > img {
+    width:100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.img-active {
+    border:2px solid var(--seaGreeen);
+    border-radius: 5px;
+  }
+
+.SECOND >.btnContainer > button
+{
+    border: none;
+    color:black;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    padding:7px;
+    width:180px;
+    text-align: center;
+    border-radius:5px;
+    font-size: small;
+    background-color: white;
+}
+.SECOND >.btnContainer > button:hover{
+    background-color:slateblue;
+    color: white;
+    padding:8px;
+}
+
+#description{
+    display:block;
+}
+
+.description > ul > li {
+    list-style: none;
+    margin-bottom:10px;
+    width:800px;
+}
+
+.description > ul > li > figure{
+    height:390px;
+    width:900px;
+}
+.description > ul > li > figure > img {
+    width: 100%;
+    height: 100%;
+}
+.colorBoxes > figure {
+    width:60px;
+    height:60px;
+}
+.colorBoxes > figure > img {
+    width: 100%;
+    height:100%;
+}
+.sizeBoxes > .box{
+    width:90px;
+    height:60px;
+    border-radius: 5px;
+    border:1px solid gainsboro;
+    text-align: center;
+}
+.sizeBoxes > .box:hover{
+    width:90px;
+    height:60px;
+    border-radius: 5px;
+    border:1px solid var(--seaGreeen);
+    text-align: center;
+
+}
+
+.addToCart{
+    padding: 10px;
+    background-color:slateblue;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    text-align: center;
+    width:130px;
+    border-radius: 5px;
+}
+.buyNow{
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    border: 1px solid gainsboro;
+    background: transparent;
+    width:130px;
+    border-radius: 5px;
+}
+
+#specificationPart{
+    display:none;
+}
+
+.WriteProductView{
+    border:1px solid gainsboro;
+    width:300px;
+    display: flex;
+    gap:10px;
+    border-radius: 5px;
+}
+
+.WriteProductView > input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.profile{
+    display: flex;
+    /* justify-content: center; */
+    width:300px;
+    gap:10px;
+    border-radius: 50%;
+}
+.profile > figure {
+    width:60px;
+    height:60px;
+}
+.profile > figure > img {
+    width:100%;
+    height:100%;
+}
+.profileBoxes > .box{
+    width:70px;
+    height:70px;
+
+}
+.profileBoxes > .box > img {
+    width:100%;
+    height:100%;
+}
+
+#compatiblePart > .card{
+    width:180px;
+}
+/* 
+.full-view-img{
+    position: relative;
+   
+}  */
+
+.heart111{
+    position: relative;
+    width: 100%;
+    background-color: aqua;
+    cursor: pointer;
+    z-index: 9999;
+}
+.fa-heart
+{
+   color:#153D66;
+   /* color: blue; */
+}
+.full-view-img > .heart111 > span{
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size:30px;
+    width:60px;
+   
+}
+.heart111 > span > img {
+    width:100%;
+}
+#hrt1{
+       display:block;
+}
+#hrt2{
+          display:none;
+}
+/* .full-view-img > img {
+    width: 100%;
+}  */
+.write_review{
+    border:1px solid var(--blue);
+    border-radius: 7px;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.write_review > a{
+    text-decoration: none;
+    color:grey;
+}
+.write_review > span > i {
+    color: var(--seaGreeen);
+    
+    font-size: 30px;;
+}
+.customer_review > .header {
+   display:flex ;
+  gap: 20px;
+   align-items: center;
+}
+.customer_review > .header > figure{
+    width:60px;
+    height:60px;
+}
+.customer_review > .header > figure > img {
+    width: 100%;
+}
+.socialMedia{
+    padding: 10px;
+    border:1px solid gainsboro;
+    width:100%;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.google{
+    width:70px;
+    height:75px;
+}
+h2,h3{
+    color:var(--seaGreeen);
+    text-transform:capitalize;
+}
+/* li{
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";
+    color:var(--blue);
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  } */
+
+/* .full-view-img > img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.full-view-img:hover img
+{
+    transform: scale(1.5);
+} */
+
+
+
+
+
+.FIRST > ul > li
+{
+    padding:10px
+}
+ .heart{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    background-color: white;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+ }
+ .viewDetails
+ {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+ .viewDetails > a
+ {
+    background-color: var(--seaGreeen);
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;font-size: 20px;
+ }
+ .plus{
+    padding:10px;
+    font-size: 20px;
+    background-color:var(--blue);
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ }
+
+
+
+
+
+.breadcrumb > li > a {
+    text-decoration: none;
+    color:grey
+}
+.breadcrumb > li:nth-child(3) > a{
+    color:var(--seaGreeen)
+}
+
+
+.ratings span{
+   padding: 15px 10px; 
+}
+.MRP > span
+{
+    color:gray
+}
+.colorBox , .sizeBox{
+ width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 5px;
+ 
+    
+}
+.colorBox > div {
+   background-color:white;
+   box-shadow: 1px 1px 1px 1px gainsboro;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+.sizeBox > div{
+    padding:10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 10px;
+}
+.sizeBox > div > p{
+    color:var(--seaGreeen)
+}
+.sizeBox > div:hover{
+    border:2px solid var(--seaGreeen);
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 10px;
+}
+.sizeChart {
+    color:var(--seaGreeen)
+}
+.add_info
+{
+    color:var(--blue)
+}
+/* SECOND PARTS ENDS */
+
+
+/* THIRD PARTS STARTS HERE */
+
+.ProductCard{
+    
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:30px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+.Quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.QtyInput{
+    width:90px;
+    border: 1px solid var(--blue);
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+}
+.QtyInput > input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width:100%;
+    color:var(--blue);
+  
+    
+}
+.QtyInput > span:nth-child(2){
+    position: absolute;
+    top:0px;
+    right:5px;
+    color: var(--seaGreeen);
+    cursor: pointer;
+}
+.QtyInput > span:nth-child(3){
+    position: absolute;
+    bottom:0px;
+    right:5px;
+    color: var(--seaGreeen);
+    cursor: pointer;
+}
+
+.ProductCard > .btn-group button:nth-child(1)
+{
+    border:2px solid;
+    color: var(--blue);
+    font-family: 'DM Sans', sans-serif;
+    padding:10px;
+ 
+}
+.ProductCard > .btn-group button:nth-child(2)
+{
+   background: var(--seaGreeen);
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+    padding:10px;
+}
+#flexCheckDefault
+{
+    box-shadow: none; 
+    width:20px;
+    height:20px; 
+    border: 2px solid var(--seaGreeen);
+}
+#flexCheckDefault:checked
+{
+
+background-color: var(--seaGreeen);
+
+}
+.share{
+    color: var(--seaGreeen);
+}
+/* THIRD PARTS END HERE */
